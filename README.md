@@ -10,7 +10,7 @@ $ git clone git@github.com:resin-projects/simple-server-node.git
 ```
 Then add your resin.io application's remote:
 ```
-$ git remote add resin shaun@git.resinstaging.io:shaun/myapp.git
+$ git remote add resin username@git.resin.io:username/myapp.git
 ```
 and push the code to the newly added remote:
 ```
@@ -23,7 +23,7 @@ It should take a few minutes for the code to push. While you wait, lets enable d
 Once the device is updated, you should see this in your logs:
 ![log output](/img/log-output.png)
 
-Then in your browser you should be able to open the device URL link and see the message "Hello World!".
+Then in your browser you should be able to open the device URL and see the message "Hello World!".
 
 
 [resin-link]:https://resin.io/
