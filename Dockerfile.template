@@ -1,13 +1,17 @@
 #base-image for node on any machine using a template var
 FROM resin/%%RESIN_MACHINE_NAME%%-node
 
+#switch on systemd init system in container
+ENV INITSYSTEM on
+
 # install deps on build server, making sure to clean up the artifacts it creates in order to reduce the image size.
 RUN npm install express && npm cache clean && rm -rf /tmp/*
 
 # copy all files to /usr/src/app  dir
 COPY . /usr/src/app 
+WORKDIR /usr/src/app
 
 # Run server when container runs on device
-CMD ["node", "/usr/src/app/server.js"] 
+CMD ["node", "server.js"] 
 
 MAINTAINER Craig Mulligan <craig@resin.io>
