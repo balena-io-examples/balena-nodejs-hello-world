@@ -1,6 +1,6 @@
 ## A Simple Server with Node.js Express
 
-This is a simple skeleton Express server project that works on any of the `ARMv7` devices supported by [resin.io][resin-link].
+This is a simple skeleton Express server project that works on any of the [resin.io][resin-link] supported devices.
 
 This project simply serves up `"Hello World!"` on port `:80` of your resin.io device.
 
@@ -8,7 +8,7 @@ To get this project up and running, you will need to signup for a resin.io accou
 ```
 $ git clone git@github.com:resin-projects/simple-server-node.git
 ```
-Then add your resin.io application's remote:
+Then add your resin.io application's remote repository to your local repository:
 ```
 $ git remote add resin username@git.resin.io:username/myapp.git
 ```
@@ -17,7 +17,7 @@ and push the code to the newly added remote:
 $ git push resin master
 ```
 It should take a few minutes for the code to push. While you wait, lets enable device URLs so we can see the server outside of our local network. This option can be found in the `Actions` tab in your device dashboard.
-<!-- TODO: update images when port 8080 is deprecated. -->
+
 ![Actions Tab](/img/enable-public-URLs.png)
 
 Once the device is updated, you should see this in your logs:
