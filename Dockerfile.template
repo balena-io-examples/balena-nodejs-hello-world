@@ -1,5 +1,5 @@
 # base-image for node on any machine using a template variable,
-# see more about dockerfile templates here:http://docs.resin.io/pages/deployment/docker-templates
+# see more about dockerfile templates here: http://docs.resin.io/runtime/resin-base-images/
 # Note the node:slim image doesn't have node-gyp
 FROM resin/%%RESIN_MACHINE_NAME%%-node:slim
 
