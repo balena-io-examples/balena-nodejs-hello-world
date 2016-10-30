@@ -24,7 +24,7 @@ RUN JOBS=MAX npm install --production --unsafe-perm && npm cache clean && rm -rf
 COPY . ./
 
 # Enable systemd init system in container
-ENV INITSYSTEM=on
+ENV INITSYSTEM on
 
 # server.js will run when container starts up on the device
 CMD ["npm", "start"]
