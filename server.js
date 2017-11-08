@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 //start a server on port 80 and log its start to our console
 var server = app.listen(80, function () {
 
-  var port1 = server.address().port;
-  console.log('Example app listening on port ', port1);
+  var port = server.address().port;
+  console.log('Example app listening on port ', port);
 
 });
