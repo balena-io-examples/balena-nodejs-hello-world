@@ -10,7 +10,7 @@ $ git clone git@github.com:balena-projects/simple-server-node.git
 ```
 Then add your balena application remote repository to your local repository:
 ```
-$ git remote add balena username@git.balena.io:username/myapp.git
+$ git remote add balena username@git.balena-cloud.com:username/myapp.git
 ```
 and push the code to the newly added remote:
 ```
@@ -27,5 +27,5 @@ Then in your browser you should be able to open the device URL and see the messa
 
 
 [balena-link]:https://balena.io/
-[signup-page]:https://dashboard.balena.io/signup
-[gettingStarted-link]:http://docs.balena.io/#/pages/installing/gettingStarted.md
+[signup-page]:https://dashboard.balena-cloud.com/signup
+[gettingStarted-link]:http://balena.io/docs/learn/getting-started/
