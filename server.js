@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+// Enable HTML template middleware
+app.engine('html', require('ejs').renderFile);
+
 // reply to request with "Hello World!"
 app.get('/', function (req, res) {
   res.render('index.html');
