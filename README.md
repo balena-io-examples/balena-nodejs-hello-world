@@ -16,7 +16,7 @@ and push the code to the newly added remote:
 ```
 $ git push balena master
 ```
-It should take a few minutes for the code to push. While you wait, lets enable device URLs so we can see the server outside of our local network. This option can be found in the `Actions` tab in your device dashboard.
+It should take a few minutes for the code to push. While you wait, lets enable device URLs so we can see the server outside of our local network. This option can be found in the `Actions` tab in your device dashboard. You'll also need to make sure that [local mode][local-mode] is disabled.
 
 ![Actions Tab](/img/enable-public-URLs.png)
 
@@ -29,3 +29,4 @@ Then in your browser you should be able to open the device URL and see the messa
 [balena-link]:https://balena.io/
 [signup-page]:https://dashboard.balena-cloud.com/signup
 [gettingStarted-link]:http://balena.io/docs/learn/getting-started/
+[local-mode]:https://www.balena.io/docs/learn/develop/local-mode/
