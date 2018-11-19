@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/balena-projects/simple-server-node.git"
+    "url": "git+https://github.com/balena-io-projects/simple-server-node.git"
   },
   "keywords": [
     "webserver",
@@ -19,9 +19,9 @@
   "author": "Shaun Mulligan <shaun@balena.io>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/balena-projects/simple-server-node/issues"
+    "url": "https://github.com/balena-io-projects/simple-server-node/issues"
   },
-  "homepage": "https://github.com/balena-projects/simple-server-node#readme",
+  "homepage": "https://github.com/balena-io-projects/simple-server-node#readme",
   "dependencies": {
     "express": "*",
     "ejs": "*"
