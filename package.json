@@ -1,6 +1,6 @@
 {
   "name": "simple-server-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Expressjs Web server on balena",
   "main": "server.js",
   "scripts": {
