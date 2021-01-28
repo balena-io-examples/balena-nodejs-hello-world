@@ -11,7 +11,7 @@ FROM balenalib/%%BALENA_MACHINE_NAME%%-node:10-stretch-run
 WORKDIR /usr/src/app
 
 # Copies the package.json first for better cache on later pushes
-COPY package.json package.json
+COPY package*.json ./
 
 # This install npm dependencies on the balena build server,
 # making sure to clean up the artifacts it creates in order to reduce the image size.
