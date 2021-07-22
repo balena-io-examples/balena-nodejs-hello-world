@@ -1,7 +1,7 @@
 # base-image for node on any machine using a template variable,
 # see more about dockerfile templates here: https://www.balena.io/docs/learn/develop/dockerfile/#dockerfile-templates
 # and about balena base images here: https://www.balena.io/docs/reference/base-images/base-images/
-FROM balenalib/%%BALENA_MACHINE_NAME%%-node:10-stretch-run
+FROM balenalib/%%BALENA_MACHINE_NAME%%-node:14-buster-run
 
 # use `install_packages` if you need to install dependencies,
 # for instance if you need git, just uncomment the line below.

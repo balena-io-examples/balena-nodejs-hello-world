@@ -1,21 +1,24 @@
-var express = require('express');
-var app = express();
+const { join } = require('path')
+const express = require('express')
+const favicon = require('serve-favicon')
+const app = express()
+const PORT = 80
 
-// Enable HTML template middleware
-app.engine('html', require('ejs').renderFile);
+app.use(favicon(join(__dirname, 'public', 'favicon.ico')))
+app.set('views', join(__dirname, 'views'))
+app.set('view engine', 'ejs')
 
-// Enable static CSS styles
-app.use(express.static('styles'));
+// Enable the public directory for resource files
+app.use('/public', express.static(
+  join(__dirname, 'public')
+))
 
-// reply to request with "Hello World!"
+// reply to request with the hello world html file
 app.get('/', function (req, res) {
-  res.render('index.html');
-});
+  res.render('index')
+})
 
-//start a server on port 80 and log its start to our console
-var server = app.listen(80, function () {
-
-  var port = server.address().port;
-  console.log('Example app listening on port ', port);
-
-});
+// start a server on port 80 and log its start to our console
+app.listen(PORT, () => {
+  console.log(`Example app listening on port ${PORT}`)
+})
