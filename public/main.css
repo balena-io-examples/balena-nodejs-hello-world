@@ -1,22 +1,31 @@
 html, body {
   display: flex;
   flex-direction: column;
-  height: 100%;
   justify-content: space-between;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  background-color: #f8f9fd;
 }
 
 .header {
   height: auto;
-  background-color: rgb(252, 196, 4);
+  background-color: #527699;
 }
 
-.light-text {
-  font-weight: 100;
+.title {
+  color: #2a506f;
+  font-size: 24px;
+}
+
+.h1, h1 {
+  color: #2a506f;
+  font-size: 58px;
+  line-height: 70px;
+  letter-spacing: 0.1px;
 }
 
 .box {
-  padding: 1.5rem;
+  padding: .75rem;
   width: 62%;
   margin: 1vw 0;
   text-align: center;
@@ -28,8 +37,6 @@ html, body {
 }
 
 .button {
-  font-weight: 600;
-  font-size: 14px;
   height: 38px;
   white-space: nowrap;
   display: inline-flex;
@@ -43,54 +50,36 @@ html, body {
   cursor: pointer;
   text-decoration: none;
   margin-top: .75em;
+  margin-bottom: .75em;
   padding: 4px 30px;
   line-height: 1.5;
   border-radius: 20px;
+  background-color: #00aeef;
   transition-property: background-color;
   transition-duration: 0.1s;
   transition-timing-function: ease-in-out;
 }
 
 .button:hover {
-  color: white;
+  color: #fff;
   text-decoration: none;
+  background-color: #009dd7;
 }
 
-.title.teal {
-  color: rgb(0, 204, 153);
-}
-.button.teal {
-  background: rgb(0, 204, 153);
-  border-color: rgb(0, 204, 153);
-}
-.button.teal:hover {
-  background: rgb(0, 163, 122);
-  border-color: rgb(0, 163, 122);
+a {
+  text-decoration: none;
+  color: #00aeef;
 }
 
-
-.title.red {
-  color: rgb(235, 64, 122);
-}
-.button.red {
-  background: rgb(235, 64, 122);
-  border: 1px solid rgb(235, 64, 122);
-}
-.button.red:hover {
-  background: rgb(216, 23, 89);
-  border-color: rgb(216, 23, 89);
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #009dd7;
 }
 
-.title.green {
-  color: rgb(165, 222, 55);
-}
-.button.green {
-  background: rgb(165, 222, 55);
-  border: 1px solid rgb(165, 222, 55);
-}
-.button.green:hover {
-  background: rgb(136, 190, 31);
-  border-color: rgb(136, 190, 31);
+.separator {
+  color: #bbc8d6;
+  margin: 0 0.3em;
 }
 
 canvas {
