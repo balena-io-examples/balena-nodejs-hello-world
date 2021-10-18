@@ -1,8 +1,10 @@
-## A Simple Server with Node.js Express
+# A Simple Server with Node.js Express
+
+[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balena-io-examples/balena-node-hello-world)
 
 This is a simple skeleton Express server project that works on any of the [balena][balena-link] supported devices.
 
-This project serves up `"Hello World!"` on port `:80` of your balena device.
+This project serves up a welcome page on port `:80` of your balena device.
 
 To get this project up and running, you will need to signup for a balena account [here][signup-page] and set up an application and device. You'll find full details in our [Getting Started tutorial][gettingStarted-link]. 
 
