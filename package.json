@@ -3,8 +3,9 @@
   "version": "1.1.0",
   "description": "A simple Expressjs Web server on balena",
   "main": "server.js",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
