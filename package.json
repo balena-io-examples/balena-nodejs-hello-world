@@ -5,6 +5,7 @@
   "main": "server.js",
   "private": true,
   "scripts": {
+    "test" : "echo \"Error: no test specified\"",
     "start": "node src/server.js"
   },
   "repository": {
