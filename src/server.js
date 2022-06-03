@@ -4,9 +4,10 @@ const favicon = require('serve-favicon')
 const app = express()
 const PORT = 80
 
-app.use(favicon(join(__dirname, '../views/public', 'favicon.ico')))
-app.set('views', join(__dirname, '../views'))
-app.set('view engine', 'ejs')
+app.use(favicon(join(__dirname, '..', 'views', 'public', 'favicon.ico')))
+app.set('views', join(__dirname, '..', 'views'))
+app.engine('html', require('ejs').renderFile)
+app.set('view engine', 'html')
 
 // Enable the public directory for resource files
 app.use('/public', express.static(
