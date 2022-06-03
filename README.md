@@ -1,4 +1,4 @@
-# A Simple Server with Node.js Express
+# A Simple Server with NodeJS Express
 
 [![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balena-io-examples/balena-node-hello-world)
 
@@ -18,9 +18,9 @@ balena push <FLEET_NAME>
 To give your device a public URL, access the device page on the [balenaCloud dashboard][balena-dashboard], and choose the _Public Device URL_ toggle. Once the device is updated, check the Public Device URL to find the welcome page showing up from your device. That's it, you have deployed your first balena device!
 
 
-[balena-link]:https://balena.io/ 
-[signup-page]:https://dashboard.balena-cloud.com/signup
-[gettingStarted-link]:https://www.balena.io/docs/learn/getting-started/raspberrypi3/NodeJS/
 [balena-cli]:https://www.balena.io/docs/reference/cli/
 [balena-dashboard]:https://dashboard.balena-cloud.com/
+[balena-link]:https://balena.io/ 
 [devices-supported]:https://www.balena.io/docs/reference/hardware/devices/
+[gettingStarted-link]:https://www.balena.io/docs/learn/getting-started/raspberrypi3/NodeJS/
+[signup-page]:https://dashboard.balena-cloud.com/signup

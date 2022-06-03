@@ -1,0 +1,16 @@
+name: balena-nodejs-hello-world
+type: sw.application
+description: >-
+  This is a simple skeleton NodeJS server that works on any of the devices supported by balena. It also serves as a boilerplate project for you to get started on building your fleet. Have fun! 
+post-provisioning: >-
+  ## Usage instructions
+
+  Allow a few minutes for your device to download the app. Once it's completed, 
+  the welcome page should be accessible on the public device URL.
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/balena-io-examples/balena-nodejs-hello-world/'
+data:
+
