@@ -12,5 +12,14 @@ assets:
     type: blob.asset
     data:
       url: 'https://github.com/balena-io-examples/balena-nodejs-hello-world/'
+  logo:
+    type: blob.asset
+    data:
+      url: 'https://raw.githubusercontent.com/balena-io-examples/meetbot/master/logo.png'
 data:
-
+  supportedDeviceTypes:
+    - generic-x86-64-ext
+    - generic-aarch64
+    - fincm3
+    - beaglebone-black
+    - jetson-tx2
