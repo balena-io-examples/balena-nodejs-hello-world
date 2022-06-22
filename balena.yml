@@ -1,5 +1,6 @@
 name: balena-nodejs-hello-world
 type: sw.application
+joinable: false
 description: >-
   This is a simple skeleton NodeJS server that works on any of the devices supported by balena. It also serves as a boilerplate project for you to get started on building your fleet. Have fun! 
 post-provisioning: >-
