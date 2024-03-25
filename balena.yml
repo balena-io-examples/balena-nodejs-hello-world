@@ -1,5 +1,6 @@
 name: balena-nodejs-hello-world
 type: sw.application
+version: 0.0.0
 joinable: false
 description: >-
   This is a simple skeleton NodeJS server that works on any of the devices
