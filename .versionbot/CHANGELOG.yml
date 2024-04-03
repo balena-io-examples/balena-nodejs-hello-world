@@ -1,0 +1,280 @@
+- commits:
+    - subject: Add support for external contributors
+      hash: 385be255a62c7330c3386247113950e56cfcf6d5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta
+      nested: []
+    - subject: "patch: replace balenaCI with flowzone"
+      hash: c098aae1527d690b22d54b83d514eef1b6fb6260
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+    - subject: "Dockerfile: Switch to using base images by arch"
+      hash: e17b0ecd6a92f0fd339f0918f3d591d9e67b832d
+      body: |
+        Private DTs do not have base images, so switching
+        to using base images by arch simplifies automated
+        testing for them.
+
+        We also remove UDEV since it's not needed
+        for this particular application and throws
+        the following warning in the application logs:
+           balena-hello-world  Unable to start udev,
+           container must be run in privileged mode to start udev!
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+    - subject: "patch: Convert balenaHub fleet to app"
+      hash: e4d7d421f238667f0ce6c1f9a4baeb0fb79b8761
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+    - subject: "patch: Rectify repository link for logo"
+      hash: 7658803717e668a952c86be990e3ed3c152aad15
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+    - subject: "patch: Add balena.yml logo reference"
+      hash: 0f64b796f22e4d68884c6eda64eb8f1f110cdee2
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+    - subject: "patch: Add logo"
+      hash: f17c4b966e3df820e3514dbc2fab9d737b81e225
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+    - subject: "patch: Add repo.yml"
+      hash: e30cd35deedbea88144566064b6b1e9729cd4a96
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+    - subject: moving files back into views directory
+      hash: 0d54f3832caf8c9e3121583f8c2793c171ffee79
+      body: ""
+      footer:
+        Signed-off-by: Flynn Joffray <flynn@balena.io>
+        signed-off-by: Flynn Joffray <flynn@balena.io>
+        Change-type: patch
+        change-type: patch
+      author: Flynn Joffray
+      nested: []
+    - subject: cleaning up directory structure, removing ejs
+      hash: 75dd91673897270a44725794a6ccaf55791c6ddf
+      body: ""
+      footer:
+        Signed-off-by: Flynn Joffray <flynn@balena.io>
+        signed-off-by: Flynn Joffray <flynn@balena.io>
+        Change-type: major
+        change-type: major
+      author: Flynn Joffray
+      nested: []
+    - subject: changing ejs to render regular html
+      hash: 97e4858a1fe684435c279953a7c3bb1b988b74f4
+      body: ""
+      footer:
+        Signed-off-by: Flynn Joffray <flynn@balena.io>
+        signed-off-by: Flynn Joffray <flynn@balena.io>
+        Change-type: patch
+        change-type: patch
+      author: Flynn Joffray
+      nested: []
+    - subject: "minor: Upgrade Getting Started experience for node"
+      hash: 8b4a3a157f11897dedf0af2e3f2c6c082b8c1baf
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+    - subject: "patch: Update project links"
+      hash: f4a46a0ef964a2b7f496f465ad731bc52faa2f26
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+    - subject: Updating missing content and styles
+      hash: a0502968e83f688f86c905e2b60b3854ca0dc749
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Flynn Joffray <nucleardreamer@gmail.com>
+        signed-off-by: Flynn Joffray <nucleardreamer@gmail.com>
+      author: Flynn Joffray
+      nested: []
+    - subject: Updated UI styles
+      hash: 0c0ee5e13dfc6cb1eae3a8c09b5dd7ed27376d72
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Flynn Joffray <flynn@balena.io>
+        signed-off-by: Flynn Joffray <flynn@balena.io>
+      author: Flynn Joffray
+      nested: []
+    - subject: Add node_modules to .dockerignore
+      hash: 2cb80a1e30fd36a338fbbfff3e83366b4a8e4a8c
+      body: >
+        Exclude any local node_modules installed from pushing to Docker, as they
+        might be incompatible with the container.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stathis Moraitidis stathis@balena.io
+        signed-off-by: Stathis Moraitidis stathis@balena.io
+        Connects-to: "#1574"
+        connects-to: "#1574"
+      author: Stathis
+      nested: []
+    - subject: Copy package lock file to avoid notice
+      hash: 2c8ad8e5e58a5e4832da6fc6b60e0326cc72d39b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomasmigone@gmail.com>
+        signed-off-by: Tomás Migone <tomasmigone@gmail.com>
+      author: Tomás Migone
+      nested: []
+    - subject: Remove duplicate space in dockerfile template
+      hash: 360b27482d0170171037bb88d35ab25ef618a537
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+    - subject: Updating README for balena push
+      hash: 01835c3f9b8bac367c4103df8275159e3ca7c8af
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Gareth Davies gareth@balena.io
+        signed-off-by: Gareth Davies gareth@balena.io
+      author: Gareth Davies
+      nested: []
+  version: 2.0.0
+  title: ""
+  date: 2024-04-03T06:23:57.500Z
+- version: 1.0.0
+  date: 2019-01-09T12:10:43Z
+  commits:
+    - hash: dfa6529bbde2013af21430e6166a6bc2a47343ee
+      author: Shaun Mulligan
+      footers:
+        change-type: major
+        signed-off-by: Shaun Mulligan <shaun@balena.io>
+      subject: "Dockerfile.templage: Update to new balenalib images"
+      body: ""
+    - hash: 01ba434d2939c51d4bdce22030cc3ba75d461b6b
+      author: Shaun Mulligan
+      footers:
+        change-type: patch
+        signed-off-by: Shaun Mulligan <switchflip.shaun@gmail.com>
+      subject: "Dockerfile.template: comment on addition of udev"
+      body: ""
+- version: 0.1.0
+  date: 2018-11-19T21:50:54Z
+  commits:
+    - hash: a3307066c78d2e85d3e3bfeb1a63371c2275e87d
+      author: Daniel Andrade
+      footers:
+        change-type: minor
+        signed-off-by: Daniel Andrade daniel@balena.io
+      subject: Small balena rename
+      body: ""
+    - hash: b98e0a05e3cff020cadf5eb5eb8e66d0bb699776
+      author: alisondavis17
+      subject: Update index.html
+      body: Update welcome page copy
+    - hash: b514f8647641f591471e6245b45bb6561aefea5e
+      author: Trevor Sullivan
+      subject: Included HTML template and referenced Spectre.css
+      body: ""
+    - hash: fbfd79023f392ce1529081030b3827412eab152d
+      author: Trevor Sullivan
+      subject: Add templating middlware
+      body: ""
+    - hash: 16afa32621ec0d96a7f684fe1bd687beab4972d1
+      author: Trevor Sullivan
+      subject: Adding ejs library to package.json
+      body: ""
+    - hash: 0af0d702e97cf0a04a566ffcf22287a18aba9a5a
+      author: Trevor Sullivan
+      subject: Moved index.html to /views/ directory
+      body: ""
+    - hash: 9136148455a534f1bb67191aecf8ccbb140001fd
+      author: Trevor Sullivan
+      subject: Adding note about local mode to README
+      body: ""
+    - hash: 4ac4daa6687f850ecd1673ebbc15e7ea259bf5b7
+      author: Trevor Sullivan
+      subject: Adding updated Balena welcome page
+      body: ""
+    - hash: 02912438ab904889da700df068678234ef99812d
+      author: Trevor Sullivan
+      subject: Adding package-lock.json
+      body: ""
+    - hash: d0e9fe34898e9ad49cebbdb7d307434b6ae201df
+      author: Shaun Mulligan
+      subject: target nodejs 6
+      body: ""
+    - hash: c1438cd6e688a5377ec3c862caa2bed11c4dd068
+      author: Cameron Diver
+      footers:
+        signed-off-by: Cameron Diver <cameron@resin.io>
+      subject: Switch license in package.json to Apache-2.0
+      body: ""
+    - hash: a5230442262f551cd0d7e02750da31ae9de79e5a
+      author: Gergely Imreh
+      subject: remove = from ENV declaration
+      body: As discussed in https://github.com/resin-io/docs/issues/335
+    - hash: 0b3562a8d27ec6db29ad24fb181949086c9dfcba
+      author: Eugene Mirotin
+      subject: Update Dockerfile.template
+      body: add links to both dockerfile templates and base images
+    - hash: b58afb96951c20f1097e0d0748f6a54a1daa649a
+      author: Joscha Feth
+      subject: "docs: added correct location for finding base images"
+      body: ""
+    - hash: d8eaa40dbbfa5db4f40b891ca56c1eb73840de9d
+      author: Shaun Mulligan
+      subject: add a package.json and comments on dockerfile
+      body: ""
+    - hash: 7a750b905ffd527f1302be6bd6b95ac73cdb4a74
+      author: Shaun Mulligan
+      subject: more comments and enable init system
+      body: ""
