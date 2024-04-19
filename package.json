@@ -1,6 +1,6 @@
 {
   "name": "simple-server-node",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A simple Expressjs Web server on balena",
   "main": "server.js",
   "private": true,
@@ -28,6 +28,6 @@
     "serve-favicon": "~2.5.0"
   },
   "versionist": {
-    "publishedAt": "2024-04-03T06:23:57.621Z"
+    "publishedAt": "2024-04-19T17:37:00.549Z"
   }
 }

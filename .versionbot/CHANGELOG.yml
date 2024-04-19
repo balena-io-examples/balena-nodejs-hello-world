@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Update base image"
+      hash: daa8436f1ed863b4a341819d596f72b86a5b6a25
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 2.0.1
+  title: ""
+  date: 2024-04-19T17:37:00.478Z
+- commits:
     - subject: Add support for external contributors
       hash: 385be255a62c7330c3386247113950e56cfcf6d5
       body: ""
