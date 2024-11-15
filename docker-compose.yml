@@ -1,7 +1,48 @@
-version: "2"
+version: '2'
 
 services:
+  nodered:
+    image: nodered/node-red:latest
+    container_name: nodered
+    ports:
+      - "1234:1880"
+    volumes:
+      - nodered_data:/data
+    restart: always
+    networks:
+      - mynet
+
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto
+    ports:
+      - "1883:1883"
+    volumes:
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_config:/mosquitto/config
+      - mosquitto_log:/mosquitto/log
+    restart: always
+    networks:
+      - mynet
+
   balena-hello-world:
     build: .
     ports:
       - "80:80"
+    depends_on:
+      - mosquitto
+    networks:
+      - mynet
+
+volumes:
+  nodered_data:
+  mosquitto_data:
+  mosquitto_config:
+  mosquitto_log:
+
+networks:
+  mynet:
+      # use the bridge driver, but enable IPv6
+      driver: bridge
+      driver_opts:
+          com.docker.network.enable_ipv6: "true"

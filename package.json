@@ -25,7 +25,8 @@
   "homepage": "https://github.com/balena-io-projects/simple-server-node#readme",
   "dependencies": {
     "express": "~4.17.3",
-    "serve-favicon": "~2.5.0"
+    "serve-favicon": "~2.5.0",
+    "mqtt": "^4.3.7"
   },
   "versionist": {
     "publishedAt": "2024-04-19T17:37:00.549Z"
