@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Optimize Dockerfile"
+      hash: d1d0149454afebb12f7e4e99f0f92e44490078fe
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 2.0.3
+  title: ""
+  date: 2025-05-06T12:52:58.856Z
+- commits:
     - subject: "patch: Replace base image with Docker Official base image"
       hash: 809db7c5895db9ad4c17191c9cf69d634861a30b
       body: ""
