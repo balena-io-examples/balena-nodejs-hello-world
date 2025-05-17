@@ -26,4 +26,4 @@ COPY --from=build /build .
 USER node
 
 # Use exec form for better signal handling
-CMD ["node", "server.js"]
+CMD ["node", "src/server.js"]
