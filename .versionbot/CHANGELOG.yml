@@ -1,4 +1,16 @@
 - commits:
+    - subject: Fix Dockerfile runtime CMD
+      hash: 8e545be5aac291489f527e8f36e3bedc6bc43fac
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 2.0.4
+  title: ""
+  date: 2025-05-20T08:17:31.113Z
+- commits:
     - subject: "patch: Optimize Dockerfile"
       hash: d1d0149454afebb12f7e4e99f0f92e44490078fe
       body: ""
